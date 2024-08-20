@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #FFC5C5; /* changed to light red */
+    font-size: 18px; /* added */
+    color: #333; /* added */
+}
+
+.container {
+    background: #fff;
+    padding: 20px; /* changed from 30px */
+    border-radius: 10px; /* changed from 12px */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* changed from 0 4px 8px */
+    text-align: center;
+    max-width: 300px; /* changed from 400px */
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 15px; /* changed from 20px */
+    font-size: 20px; /* changed from 24px */
+    font-weight: bold;
+    color: #00698f; /* added */
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+label {
+    font-size: 14px; /* changed from 16px */
+    color: #555;
+    width: 40%;
+    text-align: left;
+}
+
+input[type="number"] {
+    width: 50%;
+    padding: 8px; /* changed from 10px */
+    border: 1px solid #007bff; /* changed from 2px */
+    border-radius: 6px; /* changed from 8px */
+    font-size: 14px; /* changed from 16px */
+    box-sizing: border-box;
+}
+
+input[type="number"]::placeholder {
+    color: #aaa;
+}
+
+button {
+    padding: 10px 20px; /* changed from 12px 25px */
+    font-size: 16px; /* changed from 18px */
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px; /* changed from 8px */
+    margin-top: 15px; /* changed from 20px */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+p {
+    font-size: 16px; /* changed from 18px */
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px; /* changed from 20px */
+}
